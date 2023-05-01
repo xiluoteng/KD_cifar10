@@ -1,3 +1,4 @@
-from .Resnet import Resnet
+from .ResNet import Resnet
+from .Fullyconnectedhead import Fullyconnectedhead
 
-__all__ = ['Resnet']
+__all__ = ['Fullyconnectedhead', 'Resnet']
